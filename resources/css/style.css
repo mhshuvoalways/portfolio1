@@ -1,0 +1,446 @@
+@charset "utf-8";
+/*==============*/
+/*Basic Setup*/
+/*==============*/
+ * {
+     margin: 0px;
+     padding: 0px;
+     scroll-behavior: smooth;
+}
+ body {
+     font-family: 'Titillium Web', sans-serif;
+     text-rendering: optimizeLegibility;
+}
+ a {
+     text-decoration: none;
+}
+ h1 {
+     font-weight: 700;
+     font-size: 50px;
+}
+ h2 {
+     font-size: 40px;
+     font-weight: 600 
+}
+ h3 {
+     font-weight: 600 
+}
+ :focus {
+     outline: 0 
+}
+/*=====================*/
+/*Resable components*/
+/*=====================*/
+ .section {
+     padding: 70px 0;
+     text-align: center;
+}
+ .btn {
+     padding-top: 50px;
+}
+ .btn a {
+     border-radius: 5px;
+     padding: 10px 15px;
+     border: 1px solid #fff;
+     text-decoration: none;
+     -webkit-transition: .3s all;
+     -o-transition: .3s all;
+     transition: .3s all;
+     color: #fff;
+}
+ .btn a:hover {
+     background: #fff;
+     color: black 
+}
+ .section-title {
+     text-transform: uppercase;
+     letter-spacing: 2px;
+}
+ .section-title:after {
+     content: "";
+     display: block;
+     width: 100px;
+     margin: 0 auto;
+     background: #adb5bd;
+     height: 2px;
+     margin-top: 15px 
+}
+ .title-details {
+     margin-bottom: 80px;
+     font-size: 20px;
+     font-weight: 550;
+}
+/*======================*/
+/*Header Section*/
+/*======================*/
+ .header .bg-light {
+     background: #915fa2e0 !important;
+     border-bottom: 2px solid #fff;
+     position: fixed;
+     width: 100%;
+     top: 0;
+     left: 0;
+     z-index: 2 
+}
+ .name-custome {
+     color: #fff;
+     font-size: 25px;
+}
+ .nav-item a {
+     margin-left: 20px;
+}
+ .navbar-light .navbar-nav .nav-link {
+     color: #fff 
+}
+ .navbar-light .navbar-nav .nav-link:focus {
+     color: #fff;
+     background: rgba(100,58,121, .7);
+     border-radius:3px;
+}
+/*======================*/
+/*Welcome Section*/
+/*======================*/
+ .welcome {
+     background: -webkit-gradient(linear, left top, left bottom, from(rgba(135, 80, 156, .9)), to(rgba(135, 80, 156, .9))), url(../../img/bg/welcome-bg.jpg);
+     background: -webkit-linear-gradient(rgba(135, 80, 156, .9), rgba(135, 80, 156, .9)), url(../../img/bg/welcome-bg.jpg);
+     background: -o-linear-gradient(rgba(135, 80, 156, .9), rgba(135, 80, 156, .9)), url(../../img/bg/welcome-bg.jpg);
+     background: linear-gradient(rgba(135, 80, 156, .9), rgba(135, 80, 156, .9)), url(../../img/bg/welcome-bg.jpg);
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position: top center;
+     background-attachment: fixed;
+     color: #fff;
+     padding: 100px;
+     padding-top: 150px;
+     overflow: hidden 
+}
+ .nav-item a {
+     text-transform: uppercase;
+     font-weight: 600;
+}
+ .animated-text {
+     margin: 45px 0px;
+}
+ .animated-text b {
+     font-size: 50px;
+}
+ .contact-me li {
+     display: inline-block;
+     margin: 0 5px;
+}
+ .contact-me li a i {
+     border-radius: 50%;
+     border: 1px solid #fff;
+     width: 35px;
+     height: 35px;
+     padding-top: 9px;
+     text-align: center;
+     color: #fff;
+     -webkit-transition: .5s all;
+     -o-transition: .5s all;
+     transition: .5s all 
+}
+ .contact-me li a i:hover {
+     -webkit-transform: rotate(360deg);
+     -ms-transform: rotate(360deg);
+     transform: rotate(360deg) 
+}
+ .welcome .btn {
+     padding-top: 85px;
+}
+/*======================*/
+/*About Section*/
+/*======================*/
+ .about {
+     background: -webkit-gradient(linear, left top, left bottom, from(rgba(231, 241, 248, .9)), to(rgba(231, 241, 248, .9))), url(../../img/bg/about-bg.jpg);
+     background: -webkit-linear-gradient(rgba(231, 241, 248, .9), rgba(231, 241, 248, .9)), url(../../img/bg/about-bg.jpg);
+     background: -o-linear-gradient(rgba(231, 241, 248, .9), rgba(231, 241, 248, .9)), url(../../img/bg/about-bg.jpg);
+     background: linear-gradient(rgba(231, 241, 248, .9), rgba(231, 241, 248, .9)), url(../../img/bg/about-bg.jpg);
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position: bottom center;
+}
+ .about .box-shadow {
+     -webkit-box-shadow: 0px 0px 25px 10px;
+     box-shadow: 0px 0px 25px 10px;
+}
+ .section-details {
+     text-align: left;
+     margin-top: 30px;
+     line-height: 30px;
+     letter-spacing: 0.5px;
+}
+ .section-details b {
+     color: orange;
+}
+/*======================*/
+/*Service Section*/
+/*======================*/
+ .service {
+     background: -webkit-gradient(linear, left top, left bottom, from(rgba(23, 194, 164, .9)), to(rgba(23, 194, 164, .9))), url(../../img/bg/services-bg.jpg);
+     background: -webkit-linear-gradient(rgba(23, 194, 164, .9), rgba(23, 194, 164, .9)), url(../../img/bg/services-bg.jpg);
+     background: -o-linear-gradient(rgba(23, 194, 164, .9), rgba(23, 194, 164, .9)), url(../../img/bg/services-bg.jpg);
+     background: linear-gradient(rgba(23, 194, 164, .9), rgba(23, 194, 164, .9)), url(../../img/bg/services-bg.jpg);
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position: center;
+     background-attachment: fixed;
+     color: #fff;
+}
+ .service .title-details {
+     margin-bottom: 35px;
+}
+ .service-box{
+     position: relative;
+     background: #00000085;
+     padding: 45px 0px;
+     margin-top: 90px;
+}
+ .service-icon{
+     position: absolute;
+     top: -45px;
+     left: 50%;
+     margin-left: -45px;
+     line-height: 90px;
+     width: 85px;
+     height: 85px;
+     background: #00000085;
+     font-size: 40px;
+     color: #ffffff;
+     -webkit-transition: .3s all;
+     -o-transition: .3s all;
+     transition: .3s all;
+}
+ .service-box:hover .service-icon{
+     -webkit-transform: scale(0.8, 0.8);
+     -ms-transform: scale(0.8, 0.8);
+     transform: scale(0.8, 0.8);
+}
+ .service-box .service-icon:after{
+     content: "";
+     position: absolute;
+     top: -10px;
+     left: -10px;
+     width: 105px;
+     height: 105px;
+     border: 3px solid #fff;
+     opacity: 0;
+     -webkit-transform: scale(0.8, 0.8);
+     -ms-transform: scale(0.8, 0.8);
+     transform: scale(0.8, 0.8);
+     -webkit-transition: .3s all;
+     -o-transition: .3s all;
+     transition: .3s all;
+}
+ .service-box:hover .service-icon:after{
+     opacity: 1;
+     -webkit-transform: scale(1, 1);
+     -ms-transform: scale(1, 1);
+     transform: scale(1, 1) 
+}
+ .service-box h3 {
+     text-transform: uppercase;
+}
+ .service-box p{
+     padding:0 4px 
+}
+/*======================*/
+/*Skill Section*/
+/*======================*/
+ .skill {
+     background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, .9)), to(rgba(255, 255, 255, .9))), url(../../img/bg/skill-bg.jpg);
+     background: -webkit-linear-gradient(rgba(255, 255, 255, .9), rgba(255, 255, 255, .9)), url(../../img/bg/skill-bg.jpg);
+     background: -o-linear-gradient(rgba(255, 255, 255, .9), rgba(255, 255, 255, .9)), url(../../img/bg/skill-bg.jpg);
+     background: linear-gradient(rgba(255, 255, 255, .9), rgba(255, 255, 255, .9)), url(../../img/bg/skill-bg.jpg);
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position: center 
+}
+/*======================*/
+/*Progress Bar Start*/
+/*======================*/
+ .text-align {
+     text-align: left 
+}
+ .barfiller {
+     width: 100%;
+     height: 10px;
+     background: #fcfcfc;
+     border: 1px solid #ccc;
+     position: relative;
+     margin-bottom: 30px;
+     -webkit-box-shadow: inset 1px 4px 9px -6px rgba(0, 0, 0, .5);
+     box-shadow: inset 1px 4px 9px -6px rgba(0, 0, 0, .5);
+     -moz-box-shadow: inset 1px 4px 9px -6px rgba(0, 0, 0, .5);
+}
+ .barfiller .fill {
+     display: block;
+     position: relative;
+     width: 0px;
+     height: 100%;
+     background: #333;
+     z-index: 1;
+}
+ .barfiller .tipWrap {
+     display: none;
+}
+ .barfiller .tip {
+     margin-top: -32px;
+     padding: 0px 8px;
+     font-size: 16px;
+     color: #fff;
+     left: 0px;
+     position: absolute;
+     z-index: 1;
+     background: #333;
+}
+ .barfiller .tip:after {
+     border: solid;
+     border-color: rgba(0, 0, 0, .8) transparent;
+     border-width: 6px 6px 0 6px;
+     content: "";
+     display: block;
+     position: absolute;
+     left: 9px;
+     top: 100%;
+     z-index: 1 
+}
+/*======================*/
+/*Progress Bar End*/
+/*======================*/
+/*======================*/
+/*Portfolio Section*/
+/*======================*/
+ .portfolio {
+     background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 221, 153, .9)), to(rgba(255, 221, 153, .9))), url(../../img//bg/portfolio-bg.jpg);
+     background: -webkit-linear-gradient(rgba(255, 221, 153, .9), rgba(255, 221, 153, .9)), url(../../img//bg/portfolio-bg.jpg);
+     background: -o-linear-gradient(rgba(255, 221, 153, .9), rgba(255, 221, 153, .9)), url(../../img//bg/portfolio-bg.jpg);
+     background: linear-gradient(rgba(255, 221, 153, .9), rgba(255, 221, 153, .9)), url(../../img//bg/portfolio-bg.jpg);
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position: center center;
+     background-attachment: fixed;
+     text-align: center;
+     overflow: hidden 
+}
+ .portfolio .btn a {
+     border: 1px solid #000000;
+     color: #000000;
+}
+ .portfolio img {
+     margin: 10px 0px;
+     border: 1px solid #000000;
+     -webkit-transition: 0.2s all;
+     -o-transition: 0.2s all;
+     transition: 0.2s all;
+     width: 100%;
+}
+ .portfolio img:hover{
+     -webkit-box-shadow: 0px 0px 20px 5px;
+     box-shadow: 0px 0px 20px 5px;
+     -moz-box-shadow: 0px 0px 20px 5px;
+}
+/*======================*/
+/*Testimonilas Section*/
+/*======================*/
+ .testimonials {
+     background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, .9)), to(rgba(255, 255, 255, .9))), url(../../img/bg/testimonial-bg.jpg);
+     background: -webkit-linear-gradient(rgba(255, 255, 255, .9), rgba(255, 255, 255, .9)), url(../../img/bg/testimonial-bg.jpg);
+     background: -o-linear-gradient(rgba(255, 255, 255, .9), rgba(255, 255, 255, .9)), url(../../img/bg/testimonial-bg.jpg);
+     background: linear-gradient(rgba(255, 255, 255, .9), rgba(255, 255, 255, .9)), url(../../img/bg/testimonial-bg.jpg);
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position: top center;
+}
+ .testimonials img {
+     width: 80px;
+     height: 80px;
+     border-radius: 50%;
+     float: left;
+}
+ .client-says {
+     margin-left: 110px;
+     text-align: left;
+}
+ .testimonials .col-xs-12.col-md-6 {
+     margin-bottom: 50px;
+}
+/*======================*/
+/*Contact Section*/
+/*======================*/
+ .contact {
+     background: -webkit-gradient(linear, left top, left bottom, from(rgba(60, 84, 153, .6)), to(rgba(60, 84, 153, .6))), url(../../img/bg/contact-bg.jpg);
+     background: -webkit-linear-gradient(rgba(60, 84, 153, .6), rgba(60, 84, 153, .6)), url(../../img/bg/contact-bg.jpg);
+     background: -o-linear-gradient(rgba(60, 84, 153, .6), rgba(60, 84, 153, .6)), url(../../img/bg/contact-bg.jpg);
+     background: linear-gradient(rgba(60, 84, 153, .6), rgba(60, 84, 153, .6)), url(../../img/bg/contact-bg.jpg);
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position: center top;
+     background-attachment: fixed;
+     color: #fff;
+     overflow:hidden 
+}
+ input[type="text"], input[type="email"], textarea {
+     padding: 10px 0px;
+     width: 100%;
+     background: #273a71;
+     border: 0;
+     border-radius: 5px;
+     color: #fff;
+     padding-left: 15px 
+}
+ ::-webkit-input-placeholder {
+     color: #fff;
+}
+ :-ms-input-placeholder {
+     color: #fff;
+}
+ ::-ms-input-placeholder {
+     color: #fff;
+}
+ ::placeholder {
+     color: #fff;
+}
+ .contact .col-xs-12.col-md-6 {
+     margin-bottom: 20px;
+}
+ textarea {
+     margin-top: 48px;
+     margin: auto;
+     width: 95%;
+}
+ .contact .btn {
+     border-radius: 5px;
+     padding: 10px 15px;
+     border: 1px solid #fff;
+     text-decoration: none;
+     -webkit-transition: .3s all;
+     -o-transition: .3s all;
+     transition: .3s all;
+     color: #fff;
+     margin-top:50px 
+}
+ .contact .btn:hover {
+     background: #fff;
+     color: black 
+}
+/*======================*/
+/*Footer Section*/
+/*======================*/
+ .footer {
+     background: #344b8e;
+     text-align: center;
+     padding: 5px 0px 
+}
+ .footer li {
+     display: inline-block;
+     margin: 0 30px;
+}
+ .footer li a {
+     font-size: 20px;
+     text-decoration: none;
+     color: #fff;
+}
+ .footer b {
+     color: orange 
+}
