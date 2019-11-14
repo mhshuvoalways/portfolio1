@@ -320,6 +320,12 @@
      text-align: center;
      overflow: hidden 
 }
+.portfolio .btn {
+     padding-top: 15px;
+}
+.portfolio .fab.fa-github {
+     margin-right: 5px;
+ }
  .portfolio .btn a {
      border: 1px solid #000000;
      color: #000000;
@@ -440,4 +446,3 @@
 }
  .footer b {
      color: orange 
-}
