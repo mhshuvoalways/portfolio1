@@ -68,7 +68,7 @@
  .title-details {
      margin-bottom: 80px;
      font-size: 20px;
-     font-weight: 550;
+     font-weight: 500;
 }
 /*======================*/
 /*Header Section*/
@@ -446,3 +446,4 @@
 }
  .footer b {
      color: orange 
+ }
