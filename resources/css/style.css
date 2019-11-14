@@ -101,10 +101,10 @@
 /*Welcome Section*/
 /*======================*/
  .welcome {
-     background: -webkit-gradient(linear, left top, left bottom, from(rgba(135, 80, 156, .9)), to(rgba(135, 80, 156, .9))), url(../../img/bg/welcome-bg.jpg);
-     background: -webkit-linear-gradient(rgba(135, 80, 156, .9), rgba(135, 80, 156, .9)), url(../../img/bg/welcome-bg.jpg);
-     background: -o-linear-gradient(rgba(135, 80, 156, .9), rgba(135, 80, 156, .9)), url(../../img/bg/welcome-bg.jpg);
-     background: linear-gradient(rgba(135, 80, 156, .9), rgba(135, 80, 156, .9)), url(../../img/bg/welcome-bg.jpg);
+     background: -webkit-gradient(#000000d6, #000000d6), url(../../img/bg/welcome-bg.jpg);
+     background: -webkit-linear-gradient(#000000d6, #000000d6), url(../../img/bg/welcome-bg.jpg);
+     background: -o-linear-gradient(#000000d6, #000000d6), url(../../img/bg/welcome-bg.jpg);
+     background: linear-gradient(#000000d6, #000000d6), url(../../img/bg/welcome-bg.jpg);
      background-repeat: no-repeat;
      background-size: cover;
      background-position: top center;
@@ -112,7 +112,7 @@
      color: #fff;
      padding: 100px;
      padding-top: 150px;
-     overflow: hidden 
+     overflow: hidden;
 }
  .nav-item a {
      text-transform: uppercase;
