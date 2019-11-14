@@ -8,7 +8,7 @@
      scroll-behavior: smooth;
 }
  body {
-     font-family: 'Titillium Web', sans-serif;
+    font-family: 'Barlow Condensed', sans-serif;
      text-rendering: optimizeLegibility;
 }
  a {
@@ -74,13 +74,13 @@
 /*Header Section*/
 /*======================*/
  .header .bg-light {
-     background: #915fa2e0 !important;
+     background: #495057 !important;
      border-bottom: 2px solid #fff;
      position: fixed;
      width: 100%;
      top: 0;
      left: 0;
-     z-index: 2 
+     z-index: 2;
 }
  .name-custome {
      color: #fff;
@@ -94,7 +94,7 @@
 }
  .navbar-light .navbar-nav .nav-link:focus {
      color: #fff;
-     background: rgba(100,58,121, .7);
+     background: #60666d;
      border-radius:3px;
 }
 /*======================*/
@@ -170,9 +170,6 @@
      line-height: 30px;
      letter-spacing: 0.5px;
 }
- .section-details b {
-     color: orange;
-}
 /*======================*/
 /*Service Section*/
 /*======================*/
@@ -247,7 +244,7 @@
 /*======================*/
 /*Skill Section*/
 /*======================*/
- .skill {
+ /* .skill {
      background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, .9)), to(rgba(255, 255, 255, .9))), url(../../img/bg/skill-bg.jpg);
      background: -webkit-linear-gradient(rgba(255, 255, 255, .9), rgba(255, 255, 255, .9)), url(../../img/bg/skill-bg.jpg);
      background: -o-linear-gradient(rgba(255, 255, 255, .9), rgba(255, 255, 255, .9)), url(../../img/bg/skill-bg.jpg);
@@ -255,7 +252,7 @@
      background-repeat: no-repeat;
      background-size: cover;
      background-position: center 
-}
+} */
 /*======================*/
 /*Progress Bar Start*/
 /*======================*/
