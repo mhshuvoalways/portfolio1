@@ -221,70 +221,6 @@
      padding:0 4px 
 }
 /*======================*/
-/*Skill Section*/
-/*======================*/
- /* .skill {
-     background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, .9)), to(rgba(255, 255, 255, .9))), url(../../img/bg/skill-bg.jpg);
-     background: -webkit-linear-gradient(rgba(255, 255, 255, .9), rgba(255, 255, 255, .9)), url(../../img/bg/skill-bg.jpg);
-     background: -o-linear-gradient(rgba(255, 255, 255, .9), rgba(255, 255, 255, .9)), url(../../img/bg/skill-bg.jpg);
-     background: linear-gradient(rgba(255, 255, 255, .9), rgba(255, 255, 255, .9)), url(../../img/bg/skill-bg.jpg);
-     background-repeat: no-repeat;
-     background-size: cover;
-     background-position: center 
-} */
-/*======================*/
-/*Progress Bar Start*/
-/*======================*/
- .text-align {
-     text-align: left 
-}
- .barfiller {
-     width: 100%;
-     height: 10px;
-     background: #fcfcfc;
-     border: 1px solid #ccc;
-     position: relative;
-     margin-bottom: 30px;
-     -webkit-box-shadow: inset 1px 4px 9px -6px rgba(0, 0, 0, .5);
-     box-shadow: inset 1px 4px 9px -6px rgba(0, 0, 0, .5);
-     -moz-box-shadow: inset 1px 4px 9px -6px rgba(0, 0, 0, .5);
-}
- .barfiller .fill {
-     display: block;
-     position: relative;
-     width: 0px;
-     height: 100%;
-     background: #333;
-     z-index: 1;
-}
- .barfiller .tipWrap {
-     display: none;
-}
- .barfiller .tip {
-     margin-top: -32px;
-     padding: 0px 8px;
-     font-size: 16px;
-     color: #fff;
-     left: 0px;
-     position: absolute;
-     z-index: 1;
-     background: #333;
-}
- .barfiller .tip:after {
-     border: solid;
-     border-color: rgba(0, 0, 0, .8) transparent;
-     border-width: 6px 6px 0 6px;
-     content: "";
-     display: block;
-     position: absolute;
-     left: 9px;
-     top: 100%;
-     z-index: 1 
-}
-/*======================*/
-/*Progress Bar End*/
-/*======================*/
-/*======================*/
 /*Portfolio Section*/
 /*======================*/
  .portfolio {
@@ -406,6 +342,21 @@
      background: #fff;
      color: black 
 }
+.directcontactme {
+     border: 1px solid #ffffff;
+     width: 100%;
+     height: 77%;
+     text-decoration: none;
+ }
+ .email {
+     margin: 40px;
+ }
+ .directcontactme .far.fa-envelope {
+     margin-right: 10px;
+ }
+ .directcontactme .fas.fa-mobile-alt {
+     margin-right: 10px;
+ }
 /*======================*/
 /*Footer Section*/
 /*======================*/
