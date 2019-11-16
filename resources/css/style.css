@@ -124,27 +124,6 @@
  .animated-text b {
      font-size: 50px;
 }
- .contact-me li {
-     display: inline-block;
-     margin: 0 5px;
-}
- .contact-me li a i {
-     border-radius: 50%;
-     border: 1px solid #fff;
-     width: 35px;
-     height: 35px;
-     padding-top: 9px;
-     text-align: center;
-     color: #fff;
-     -webkit-transition: .5s all;
-     -o-transition: .5s all;
-     transition: .5s all 
-}
- .contact-me li a i:hover {
-     -webkit-transform: rotate(360deg);
-     -ms-transform: rotate(360deg);
-     transform: rotate(360deg) 
-}
  .welcome .btn {
      padding-top: 85px;
 }
