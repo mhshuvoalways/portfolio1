@@ -1,5 +1,5 @@
 # static-portfolio
 
-It lives at https://coodee.netlify.com
+It lives at https://mhshuvoit.netlify.com
 
-This is simple HTML, CSS, Bootstrap project.
+This is a beautiful HTML, CSS, Bootstrap portfolio.
